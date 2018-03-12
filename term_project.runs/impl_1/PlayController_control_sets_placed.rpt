@@ -1,0 +1,75 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Dec 21 20:22:25 2017
+| Host         : Yryskul-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file PlayController_control_sets_placed.rpt
+| Design       : PlayController
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              54 |           21 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              29 |            8 |
+| Yes          | No                    | No                     |              22 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              46 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|  Clock Signal  |                Enable Signal                |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | r_generate_IBUF                             |                                        |                2 |              2 |
+|  clk_IBUF_BUFG | k/keypad4X4_inst0/FSM_onehot_row[4]_i_1_n_0 |                                        |                1 |              4 |
+|  clk_IBUF_BUFG | k/keypad4X4_inst0/key_valid                 |                                        |                1 |              4 |
+|  clk_IBUF_BUFG | k/keypad4X4_inst0/key_valid                 | reset_IBUF                             |                1 |              4 |
+|  clk_IBUF_BUFG | m/st/rotation_duration_saved                |                                        |                1 |              4 |
+|  clk_IBUF_BUFG | k/keypad4X4_inst0/count_deb                 | k/keypad4X4_inst0/count_deb[5]_i_1_n_0 |                2 |              6 |
+|  clk_IBUF_BUFG | k/keypad4X4_inst0/clk_en2                   |                                        |                3 |              9 |
+|  clk_IBUF_BUFG | r_generate_IBUF                             | reset_IBUF                             |                4 |             16 |
+|  clk_IBUF_BUFG | m/st/stepmotor_inst0/sel                    | m/st/stepmotor_inst0/clear             |                5 |             20 |
+|  clk_IBUF_BUFG |                                             | m/st/count[28]_i_1_n_0                 |                8 |             29 |
+|  clk_IBUF_BUFG |                                             |                                        |               21 |             54 |
++----------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 4      |                     4 |
+| 6      |                     1 |
+| 9      |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

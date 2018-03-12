@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench_lfsr
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:35]
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:36]
+ERROR: [VRFC 10-1040] module test_bench_lfsr ignored due to previous errors [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:23]

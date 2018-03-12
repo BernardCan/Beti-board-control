@@ -1,0 +1,371 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Dec 21 19:56:43 2017
+# Process ID: 792
+# Current directory: C:/Users/Yryskul/Desktop/term_project_/term_project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5192 C:\Users\Yryskul\Desktop\term_project_\term_project_2\term_project.xpr
+# Log file: C:/Users/Yryskul/Desktop/term_project_/term_project_2/vivado.log
+# Journal file: C:/Users/Yryskul/Desktop/term_project_/term_project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Installed programs/Verilog projects/term_project' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Desktop/term_project_/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv'; using path 'D:/Installed programs/Verilog projects/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Desktop/term_project_/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv'; using path 'D:/Installed programs/Verilog projects/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Desktop/term_project_/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv'; using path 'D:/Installed programs/Verilog projects/counter_3_bit/counter_3_bit.srcs/sources_1/new/ClockDivider.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Yryskul/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv'; using path 'D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu Dec 21 20:21:07 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Dec 21 20:21:49 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Dec 21 20:25:56 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.runs/impl_1/runme.log
+file mkdir C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv w ]
+add_files -fileset sim_1 C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv
+update_compile_order -fileset sim_1
+open_project {D:/Installed programs/Verilog projects/counter_3_bit/counter_3_bit.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+current_project term_project
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'PlayController' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+"xvlog -m64 --relax -L xil_defaultlib -prj PlayController_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/KeypadController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeypadController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/MotorController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MotorController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/SegmentController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SegmentController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSeg_4digit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keypad4X4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stepmotor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module steppermotor_wrapper
+INFO: [VRFC 10-2458] undeclared symbol direction_motor, assumed default net type wire [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:710]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/PlayController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PlayController
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 99ad3a56231244068038dfd2857ca173 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PlayController_behav xil_defaultlib.PlayController xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:595]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:614]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:620]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv:308]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv:390]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port O [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv:523]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv:314]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port O [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv:317]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RandomController
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.stepmotor
+Compiling module xil_defaultlib.steppermotor_wrapper
+Compiling module xil_defaultlib.MotorController
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.keypad4X4
+Compiling module xil_defaultlib.KeypadController
+Compiling module xil_defaultlib.SevSeg_4digit
+Compiling module xil_defaultlib.SegmentController
+Compiling module xil_defaultlib.PlayController
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PlayController_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xsim.dir/PlayController_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xsim.dir/PlayController_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Dec 21 20:33:37 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 21 20:33:37 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 867.734 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PlayController_behav -key {Behavioral:sim_1:Functional:PlayController} -tclbatch {PlayController.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source PlayController.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PlayController_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 867.734 ; gain = 0.000
+set_property top RandomController [current_fileset]
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'PlayController' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+"xvlog -m64 --relax -L xil_defaultlib -prj PlayController_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/KeypadController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeypadController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/MotorController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MotorController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/SegmentController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SegmentController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SevSeg_4digit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keypad4X4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stepmotor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module steppermotor_wrapper
+INFO: [VRFC 10-2458] undeclared symbol direction_motor, assumed default net type wire [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:710]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/PlayController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PlayController
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 99ad3a56231244068038dfd2857ca173 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PlayController_behav xil_defaultlib.PlayController xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:595]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:614]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/steppermotor_wrapper.sv:620]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv:308]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/stepmotor.sv:390]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port O [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/keypad4X4.sv:523]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port CO [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv:314]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port O [D:/Documents/Fall 2017/cs 223/Project_files/Ready_Modules/SevSeg_4digit.sv:317]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RandomController
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.stepmotor
+Compiling module xil_defaultlib.steppermotor_wrapper
+Compiling module xil_defaultlib.MotorController
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.keypad4X4
+Compiling module xil_defaultlib.KeypadController
+Compiling module xil_defaultlib.SevSeg_4digit
+Compiling module xil_defaultlib.SegmentController
+Compiling module xil_defaultlib.PlayController
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PlayController_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xsim.dir/PlayController_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xsim.dir/PlayController_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Dec 21 20:35:35 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 21 20:35:35 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 867.734 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PlayController_behav -key {Behavioral:sim_1:Functional:PlayController} -tclbatch {PlayController.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source PlayController.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PlayController_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 867.734 ; gain = 0.000
+set_property top PlayController [current_fileset]
+update_compile_order -fileset sources_1
+set_property top test_bench_lfsr [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/PlayController_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_lfsr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+"xvlog -m64 --relax -L xil_defaultlib -prj test_bench_lfsr_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench_lfsr
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:35]
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:36]
+ERROR: [VRFC 10-1040] module test_bench_lfsr ignored due to previous errors [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top RandomController [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/PlayController_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_lfsr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav'
+"xvlog -m64 --relax -L xil_defaultlib -prj test_bench_lfsr_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench_lfsr
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:35]
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:36]
+ERROR: [VRFC 10-1040] module test_bench_lfsr ignored due to previous errors [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top PlayController [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top PlayController [current_fileset]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+create_project lfsr_test C:/Users/Yryskul/Desktop/term_project_/lfsr_test -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+current_project counter_3_bit
+close_project
+add_files -norecurse C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_lfsr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yryskul/Desktop/term_project_/lfsr_test/lfsr_test.sim/sim_1/behav'
+"xvlog -m64 --relax -L xil_defaultlib -prj test_bench_lfsr_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sources_1/new/RandomController.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomController
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench_lfsr
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:35]
+ERROR: [VRFC 10-91] res is not declared [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:36]
+ERROR: [VRFC 10-1040] module test_bench_lfsr ignored due to previous errors [C:/Users/Yryskul/Desktop/term_project_/term_project_2/term_project.srcs/sim_1/new/test_bench_lfsr.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Yryskul/Desktop/term_project_/lfsr_test/lfsr_test.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Yryskul/Desktop/term_project_/lfsr_test/lfsr_test.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+current_project term_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 21 20:40:30 2017...
